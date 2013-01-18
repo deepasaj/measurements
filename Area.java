@@ -12,6 +12,7 @@ public abstract class Area {
 	{
 		Area area1=(Area)obj1;
 		return area1.areaInMeters == this.areaInMeters;
+		System.out.println("Ending area");
 	}
 
 }
