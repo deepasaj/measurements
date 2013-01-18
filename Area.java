@@ -11,6 +11,7 @@ public abstract class Area {
 	public boolean equals(Object obj1)
 	{
 		Area area1=(Area)obj1;
+		System.out.println("printing area");
 		return area1.areaInMeters == this.areaInMeters;
 	}
 
